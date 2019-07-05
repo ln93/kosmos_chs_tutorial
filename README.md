@@ -8,7 +8,7 @@
   修订日期：2019.7.5
 
 ## 更新说明
-  ** 相对于V12.2，V13.01主要：**
+  **相对于V12.2，V13.01主要**
 
   1.更新到atmosphere0.9.2，支持8.1系统。
 
@@ -20,7 +20,7 @@
 
   5.支持虚拟系统——该功能依然存在很多bug，请谨慎使用。
 
-**  相对于V13，V13.01主要：**
+**相对于V13，V13.01主要**
 
   1.修复了4.X系统的支持。
 
@@ -121,7 +121,7 @@
 
 ![该界面表示你缺少exfat驱动](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/need-to-update.jpg "该界面表示你缺少exfat驱动")
 
-  在这一界面下，你固然可以直接点击"System Update"，更新到最新系统以获得exFat驱动。但是，最新的系统常常不支持破解，因此这不是一个很好的方法。
+  在这一界面下，你固然可以直接点击"System Update"，更新到最新系统以获得exFat驱动。**但是，最新的系统常常不支持破解，因此这不是一个很好的方法。**
 
   如果你不想联网更新，则可以点击“Later”并关机。一种安全的安装exFAT驱动的方法是：通过离线更新的方法来获得exFAT驱动，从而避免联网。为了实现这种完美而复杂的方法，需要进行下面的三步操作：
 
@@ -144,11 +144,11 @@
 
   建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-V13.0.1.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.0.1/Kosmos-V13.0.1.zip "Kosmos-V13.0.1.zip")并下载。
 
-  如果你希望玩破解游戏，你需要自行添加ES Patch，因此你还需要在此一并下载[ES.patches.7z](https://github.com/AtlasNX/Kosmos/releases/download/V13/ES.Patches.zip "ES.patches.7z")。
+  **如果你希望玩破解游戏，你需要自行添加ES Patch，因此你还需要在此一并下载**[ES.patches.7z](https://github.com/AtlasNX/Kosmos/releases/download/V13/ES.Patches.zip "ES.patches.7z")。
 
 ![点击Assets即可展开下载链接。下载对应的两项即可。](https://raw.githubusercontent.com/ln93/kosmos_chs_tutorial/master/imgs/download-page.jpg "点击Assets即可展开下载链接。下载对应的两项即可。")
 
-  如果你不安装es.patches，那么运行破解游戏时必然会报错。
+  **如果你不安装es.patches，那么运行破解游戏时必然会报错。**
 
 #### TegraRCMGUI
   [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases "TegraRcmGUI")
@@ -165,7 +165,7 @@
 
   另外，在压缩包根目录下找到hekate_ctcaer_5.0.0.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
 
-  如果你希望玩破解游戏，还需要将espatches.zip解压，将atmosphere文件夹放入TF卡的根目录，也就是与TF卡内原有的atmosphere文件夹合并。
+  **如果你希望玩破解游戏，还需要将espatches.zip解压，将atmosphere文件夹放入TF卡的根目录，也就是与TF卡内原有的atmosphere文件夹合并。**
 
   然后，将switch彻底关机（长按电源键8秒，switch将跳出关机菜单，选择power options-turn off），将TF卡插入你的switch。
 
@@ -186,7 +186,7 @@
 
   如果点击按钮后，此时你的switch毫无变化，但电脑软件中的switch图标变绿了，很可能是因为你的switch没有RCM漏洞，暂不支持破解。
 
-  下一节非常重要。务必仔细阅读，不要跳过任何一步。
+  **下一节非常重要。务必仔细阅读，不要跳过任何一步。**
 
 #### 配置你的破解系统
   如果你注入了Hekate，你将进入Hekate系统。
