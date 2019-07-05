@@ -202,10 +202,13 @@
   建议TF卡预留33GB空间。
 
 ![点击屏幕上方的tools，再点击backup emmc](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/backup-mainpage.jpg "点击屏幕上方的tools，再点击backup emmc")
+点击屏幕上方的tools，再点击backup emmc。
 
 ![选择一个备份选项，建议依次选择左边两项](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/choose-what-tobackup.jpg "选择一个备份选项，建议依次选择左边两项")
+选择一个备份选项，建议依次选择左边两项。
 
 ![耐心等待备份完成，最后点击右上角close即可。](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/backup-nand.jpg "耐心等待备份完成，最后点击右上角close即可。")
+耐心等待备份完成，最后点击右上角close即可。
 
   当你备份完成后，TF卡内会出现一个backup文件夹。你可以把它移动到你的电脑上，妥善保存，之后就可以删去TF卡上的备份文件了。这一备份是在进入破解系统前完成的，因此你可以放心地使用它。
 
@@ -216,8 +219,10 @@
   如果你已经完成了你的备份，制作完了虚拟系统（或者你根本不想备份/制作虚拟系统），那么：
 
 ![点击Launch](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/hekate-mainpage.jpg "点击Launch")
+  点击Launch。
 
 ![点击CFW](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/hekate-launch.jpg "点击CFW")
+  点击CFW。
 
   选择Launch，再选择CFW可以进入支持汉化补丁和mod的自制系统。如果在点击CFW后发现Switch黑屏无法启动，建议回去重新阅读关于exFAT驱动的说明。
 
