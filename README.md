@@ -227,7 +227,7 @@
 ![点击CFW](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/hekate-launch.jpg "点击CFW")
   点击CFW。
 
-  选择Launch，再选择CFW可以进入支持汉化补丁和mod的自制系统。如果在点击CFW后发现Switch黑屏无法启动，建议回去重新阅读关于exFAT驱动的说明。
+  选择Launch。如果你做了虚拟系统，选择CFW(EMUNAND)可以进入虚拟破解系统；否则选择CFW(SYSNAND)可以进入真实破解系统。如果在点击CFW后发现Switch黑屏无法启动，建议回去重新阅读关于exFAT驱动的说明。
 
 ### 其他一些可能有用的说明
 在该系统下，你的汉化补丁和mod放在atmosphere文件夹内。
