@@ -5,16 +5,16 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV13.01编写，该版本基于Atmosphere0.9.2-每夜版整合，使用hekate注入系统，支持4.0-8.1系统。
+  本文基于KosmosV13.02编写，该版本基于Atmosphere0.9.2整合，使用hekate注入系统，支持4.0-8.1系统。
 
-  修订日期：2019.7.5
+  修订日期：2019.7.8
 
 ## 更新说明
-  **相对于V12.2，V13.01主要**
+  **相对于V12.2，V13.02主要**
 
   1.更新到atmosphere0.9.2，支持8.1系统。
 
-  2.更新到了Hekate5.0.0/Nyx0.8.0，现在你会看到一个漂亮的图形化注入菜单了。同时，系统启动速度/系统备份速度也将大幅加快。
+  2.更新到了Hekate5.0.1，现在你会看到一个漂亮的图形化注入菜单了。同时，系统启动速度/系统备份速度也将大幅加快。
 
   3.升级了ldn-mitm，emuiibo，lockpick组件。
 
@@ -22,11 +22,11 @@
 
   5.支持虚拟系统——该功能依然存在很多bug，请谨慎使用。
 
-**相对于V13，V13.01主要**
+**相对于V13.01，V13.02主要**
 
-  1.修复了4.X系统的支持。
+  1.修复了6.X系统的虚拟系统支持。
 
-  2.修复了金手指支持。
+  2.更新了Kosmos Updater。
 
   对于没有硬件漏洞的软破用户而言，千万不要打开AutoRCM！
 
@@ -145,7 +145,7 @@
 
   在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
 
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-V13.0.1.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.0.1/Kosmos-V13.0.1.zip "Kosmos-V13.0.1.zip")并下载。
+  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-V13.0.2.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.0.2/Kosmos-v13.0.2.zip "Kosmos-V13.0.2.zip")并下载。
 
   **如果你希望玩破解游戏，你需要自行添加ES Patch，因此你还需要在此一并下载**[ES.patches.7z](https://github.com/AtlasNX/Kosmos/releases/download/V13/ES.Patches.zip "ES.patches.7z")。
 
@@ -166,7 +166,7 @@
 
   请使用Windows电脑打开这个压缩包，把里面的文件夹和文件直接拖入TF卡根目录。不要使用手机，安卓平板，或者Mac电脑。如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
-  另外，在压缩包根目录下找到hekate_ctcaer_5.0.0.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
+  另外，在压缩包根目录下找到hekate_ctcaer_5.0.1.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
 
   **如果你希望玩破解游戏，还需要将espatches.zip解压，将atmosphere文件夹放入TF卡的根目录，也就是与TF卡内原有的atmosphere文件夹合并。**
 
@@ -179,7 +179,7 @@
 
   如果你第一次操作，需要首先在你的私人电脑（不要使用网吧电脑，它们常常不能安装驱动）上解压TegraRcmGUI。你应当能看到一个名为apx_driver的文件夹，打开它。如果你的电脑运行着X64系统（大部分电脑都是这样的），双击InstallDriver，安装Switch RCM模式驱动。在以后的开机过程中，你不需要再次安装该驱动。
 
-  之后，运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.0.0.bin）。
+  之后，运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.0.1.bin）。
 
   卸下你的switch右joycon，将你的短接器插入switch右侧手柄导轨内，按住switch的音量键“+”，之后短按一次switch电源键。如果短接成功，switch看上去应当毫无变化。如果switch不幸开机了，请重试一次，直到成功为止。
 
@@ -192,9 +192,7 @@
   **下一节非常重要。务必仔细阅读，不要跳过任何一步。**
 
 ### 配置你的破解系统
-  如果你注入了Hekate，你将进入Hekate系统。
-
-  首先，你会看到一个图形界面菜单。
+  如果你注入了Hekate，首先，你会看到一个图形界面菜单。
 ![漂亮的nyx界面](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/hekate-mainpage.jpg "漂亮的nyx界面")
   在该菜单下，你可以使用触摸屏进行所有操作。
 
