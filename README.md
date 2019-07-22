@@ -7,7 +7,7 @@
 
   本文基于KosmosV13.02编写，该版本基于Atmosphere0.9.2整合，使用hekate注入系统，支持4.0-8.1系统。
 
-  修订日期：2019.7.8
+  修订日期：2019.7.22
 
 ## 更新说明
   **相对于V12.2，V13.02主要**
@@ -246,7 +246,11 @@
   即可。
 
 ### 安装游戏
-  goldleaf仅支持安装nsp游戏，故建议你下载一些nsp游戏。
+  目前流行的Tinfoil/Lithium不能直接运行在hekate上。你需要使用特制的hekate注入，才能正常运行它们。
+  
+  [hekate修改版](https://github.com/Joonie86/hekate/releases/tag/4.10.2J "hekate修改版")
+  
+  kosmos整合包自带的goldleaf仅支持安装nsp游戏，故建议你下载一些nsp游戏。
 
   你需要先关机，然后取出TF卡，之后用读卡器往TF卡内放入游戏文件。
 
