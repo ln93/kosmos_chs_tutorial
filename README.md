@@ -147,11 +147,11 @@
 
   建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-V13.0.2.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.0.2/Kosmos-v13.0.2.zip "Kosmos-V13.0.2.zip")并下载。
   
-  **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
+  ####**如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
-  **如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在此一并下载**[ES.patches.7z](https://github.com/AtlasNX/Kosmos/releases/download/V13/ES.Patches.zip "ES.patches.7z")。
+  ####**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在此一并下载**[ES.patches.7z](https://github.com/AtlasNX/Kosmos/releases/download/V13/ES.Patches.zip "ES.patches.7z")。
   
-  **如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任**
+  ####**如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
 ![点击Assets即可展开下载链接。下载对应的两项即可。](https://raw.githubusercontent.com/ln93/kosmos_chs_tutorial/master/imgs/download-page.jpg "点击Assets即可展开下载链接。下载对应的两项即可。")
 
