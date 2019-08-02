@@ -5,32 +5,17 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV13.02编写，该版本基于Atmosphere0.9.2整合，使用hekate注入系统，支持4.0-8.1系统。
+  本文基于KosmosV13.03编写，该版本基于Atmosphere0.9.2整合，使用hekate注入系统，支持4.0-8.1系统。
 
-  修订日期：2019.7.22
+  修订日期：2019.8.2
 
 ## 更新说明
-  **相对于V12.2，V13.02主要**
 
-  1.更新到atmosphere0.9.2，支持8.1系统。
+  **相对于V13.02，V13.03主要**
 
-  2.更新到了Hekate5.0.1，现在你会看到一个漂亮的图形化注入菜单了。同时，系统启动速度/系统备份速度也将大幅加快。
-
-  3.升级了ldn-mitm，emuiibo，lockpick组件。
-
-  4.支持4.1及更低版本系统的软破。即使你的switch没有硬件漏洞，只要你的系统版本在4.1及以下，而且从来没有连过网，就可以支持自制系统。这部分操作可以参考两个豆饭的帖子。免熔断升级如果系统版本熔断数在4.1，可以回到4.1使用软破。
-
-  5.支持虚拟系统——该功能依然存在很多bug，请谨慎使用。
-
-**相对于V13.01，V13.02主要**
-
-  1.修复了6.X系统的虚拟系统支持。
-
-  2.更新了Kosmos Updater。
-
-  对于没有硬件漏洞的软破用户而言，千万不要打开AutoRCM！
-
-  对于KosmosV11111以前的用户而言，请注意：默认启动hbmenu的方法变了-现在你需要按住R键进入相册。
+  1.更新了附带的大量软件。
+  
+  2.使用@StevenMattera的自动编译脚本编译而成。
 
   **KosmosV12.2及更低版本的用户必须删除旧自制文件**（比如，你可以删去除了Nintendo和Backup文件夹以外的所有内容）后安装。删除这些文件不会影响你已经安装的游戏和存档。
 
@@ -39,6 +24,7 @@
 ![不删后果自负](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/2168-0002.jpg "不删后果自负")
 
 # 综述
+
   “大气层”自制系统是SciresM主导的一个名为”Atmosphere”的项目，不过因为SciresM是一名坚定的正版支持者，原版的Atmosphere是不能直接用于玩盗版游戏的。实际上，我们所用的“大气层”都是其他人自行整合修改的。大部分整合包使用自制的payload，额外加载了ES Patches和其他一些组件，以允许你玩盗版游戏。
 
   其中最著名的一个版本就是使用hekate引导的Kosmos整合包。
@@ -138,6 +124,7 @@
   如果你已经能在正版系统下使用exFAT格式的TF卡，则不需要担心这类问题。
 
 ## 下载必备软件
+
 ### Kosmos整合包
   如果你是一名正版用户，只希望安装Mod和汉化包，不希望玩破解游戏，也不希望被Ban机，那么，你应该去以下网站下载最新版本的Kosmos整合包。
 
@@ -145,15 +132,14 @@
 
   在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
 
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-V13.0.2.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.0.2/Kosmos-v13.0.2.zip "Kosmos-V13.0.2.zip")并下载。
+  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-V13.0.3.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.0.3/Kosmos-v13.0.3.zip "Kosmos-V13.0.3.zip")并下载。
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
-**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在此一并下载**[ES.patches.7z](https://github.com/AtlasNX/Kosmos/releases/download/V13/ES.Patches.zip "ES.patches.7z")。
+**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在此一并下载**[Kosmos_patches.7z](https://github.com/Joonie86/hekate/releases "ES.patches.7z")
+(https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches.7z "Kosmos_patches.7z")。
   
 **如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
-
-![点击Assets即可展开下载链接。下载对应的两项即可。](https://raw.githubusercontent.com/ln93/kosmos_chs_tutorial/master/imgs/download-page.jpg "点击Assets即可展开下载链接。下载对应的两项即可。")
 
 
 ### TegraRCMGUI
@@ -164,6 +150,7 @@
   如果你购买了大气层u盘，可以用大气层u盘替代这个程序。每种大气层u盘的操作方法均不相同，但原理都是将对应的payload注入到switch中，详情请咨询卖你u盘的店主。你可是交了税的，他们必须教你。
 
 ## 让我们开始吧
+
 ### 准备TF卡文件
   还记得刚刚你下载的Kosmos压缩包吧。你应该把里面的文件放入TF卡内。
 
@@ -171,7 +158,7 @@
 
   另外，在压缩包根目录下找到hekate_ctcaer_5.0.1.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
 
-  **如果你希望玩破解游戏，还需要将espatches.zip解压，将atmosphere文件夹放入TF卡的根目录，也就是与TF卡内原有的atmosphere文件夹合并。**
+  **如果你希望玩破解游戏，还需要将Kosmos_patches.7z解压，将atmosphere和bootloader文件夹放入TF卡的根目录，也就是与TF卡内原有的atmosphere文件夹合并。**
 
   然后，将switch彻底关机（长按电源键8秒，switch将跳出关机菜单，选择power options-turn off），将TF卡插入你的switch。
 
