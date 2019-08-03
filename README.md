@@ -5,15 +5,15 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV13.03编写，该版本基于Atmosphere0.9.2整合，使用hekate注入系统，支持4.0-8.1系统。
+  本文基于KosmosV13.1编写，该版本基于Atmosphere0.9.2整合，使用hekate注入系统，支持4.0-8.1系统。
 
-  修订日期：2019.8.2
+  修订日期：2019.8.3
 
 ## 更新说明
 
-  **相对于V13.02，V13.03主要**
+  **相对于V13.02，V13.1主要**
 
-  1.更新了附带的大量软件。
+  1.更新了附带的大量软件，特别更新了Goldleafv0.6，修复了大量bug。
   
   2.使用@StevenMattera的自动编译脚本编译而成。
 
@@ -132,7 +132,7 @@
 
   在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
 
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-V13.0.3.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.0.3/Kosmos-v13.0.3.zip "Kosmos-V13.0.3.zip")并下载。
+  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-v13-1.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.1/Kosmos-v13-1.zip "Kosmos-v13-1.zip")并下载。
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
