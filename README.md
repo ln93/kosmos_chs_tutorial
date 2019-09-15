@@ -5,19 +5,22 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV13.2.1编写，该版本基于Atmosphere0.9.3整合，使用hekate注入系统，支持4.0-8.1系统。
+  本文基于KosmosV14.0.1编写，该版本基于Atmosphere0.9.4整合，使用hekate注入系统，支持4.0-9.0系统。
 
-  修订日期：2019.8.18
+  修订日期：2019.9.15
 
 ## 更新说明
 
-  **相对于V13.2，V13.2.1主要**
+  **相对于V13.2.1，V14.0.1主要**
 
-  1.更新了Kosmos toolbox，你可以安装多达18个sysmodules了。
+  1.更新了到了Atmosphere0.9.4，支持9.0系统。
   
-  2.修复了有时自制软件会崩溃的问题。
+  2.由于9.0系统更改了hid设备标识，2019年9月15日前发布的自制软件，在Atmosphere上使用可能会出现bug，未来Atmosphere也会彻底移除这些旧软件的支持。建议准备换用新版本软件。对于旧tinfoil之类的不再更新的远古软件，建议放弃使用。总而言之，建议任何人在升级前直接删除/switch文件夹。
+
+  3.修复了Sandisk U1 SDR104 (数款超高速大容量TF)卡的兼容性问题。
 
   **KosmosV12.2及更低版本的用户必须删除旧自制文件**（比如，你可以删去除了Nintendo和Backup文件夹以外的所有内容）后安装。删除这些文件不会影响你已经安装的游戏和存档。
+
 
   你可能会想尝试不删除旧自制文件，直接覆盖新自制包。但这会导致无法正常启动自制系统（这一般是过时的系统组件（modules）引起的），结果如下图所示。
   
@@ -132,13 +135,13 @@
 
   在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
 
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-v13-2-1.zip](https://github.com/AtlasNX/Kosmos/releases/download/v13.2.1/Kosmos-v13-2-1.zip "Kosmos-v13-2-1.zip")并下载。
+  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-v14.0.1.zip](https://github.com/AtlasNX/Kosmos/releases/download/v14.0.1/Kosmos-v14.0.1.zip "Kosmos-v14.0.1.zip")并下载。
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
 **如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在此一并下载**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")
 
-[Kosmos_patches.7z](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches.7z "Kosmos_patches.7z")。
+[Kosmos_patches_09_10_2019.7z](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches_09_10_2019.7z "Kosmos_patches_09_10_2019.7z")。
   
 **如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
@@ -146,7 +149,7 @@
 ### TegraRCMGUI
   [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases "TegraRcmGUI")
 
-  为了启动破解系统，你需要在这里下载最新版本的[TegraRcmGUI_v2.5_portable.zip](https://github.com/eliboa/TegraRcmGUI/releases/download/2.5/TegraRcmGUI_v2.5_portable.zip "TegraRcmGUI_v2.5_portable.zip")
+  为了启动破解系统，你需要在这里下载最新版本的[TegraRcmGUI_v2.6_portable.zip](https://github.com/eliboa/TegraRcmGUI/releases/download/2.6/TegraRcmGUI_v2.6_portable.zip "TegraRcmGUI_v2.6_portable.zip")
 
   如果你购买了大气层u盘，可以用大气层u盘替代这个程序。每种大气层u盘的操作方法均不相同，但原理都是将对应的payload注入到switch中，详情请咨询卖你u盘的店主。你可是交了税的，他们必须教你。
 
@@ -157,7 +160,7 @@
 
   请使用Windows电脑打开这个压缩包，把里面的文件夹和文件直接拖入TF卡根目录。不要使用手机，安卓平板，或者Mac电脑。如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
-  另外，在压缩包根目录下找到hekate_ctcaer_5.0.1.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
+  另外，在压缩包根目录下找到hekate_ctcaer_5.0.2.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
 
   **如果你希望玩破解游戏，还需要将Kosmos_patches.7z解压，将atmosphere和bootloader文件夹放入TF卡的根目录，也就是与TF卡内原有的atmosphere文件夹合并。**
 
@@ -229,7 +232,8 @@
 ### 保持断网
   在破解系统下，建议你保持断网状态。另外，打开飞行模式并不能保证你断网，因此建议你删除机内的所有wifi信息。否则，你的机子有可能被ban。另外，任天堂会疯狂向你推送升级信息，导致你打开各种游戏都会看到“游戏需要更新”的通知——十分烦人。
 
-  如果你自认为是一个高级玩家，不希望完全断网，你可以用“90DNS”来屏蔽任天堂服务器。在WIFI设置中：
+  如果你自认为是一个高级玩家，不希望完全断网，你可以用“90DNS”来屏蔽任天堂服务器(并不太可靠)。
+  在WIFI设置中：
 
 	将'Primary DNS' 设为 '163.172.141.219'
 	将'Secondary DNS' 设为 '45.248.48.62'
