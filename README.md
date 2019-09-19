@@ -1,4 +1,4 @@
-# Kosmos安装指南
+﻿# Kosmos安装指南
   本文（和文末链接中的文章）遵循MIT协议发布。你可以自由转载，修改本文，甚至用于商业用途————只需保留本声明即可。
   
   本文中提及的一切代码和二进制文件的所有权利均由对应作者拥有。
@@ -7,7 +7,7 @@
 
   本文基于KosmosV14.1编写，该版本基于Atmosphere0.9.4整合，使用hekate注入系统，支持4.0-9.0系统。
 
-  修订日期：2019.9.16
+  修订日期：2019.9.19
 
 ## 更新说明
 
@@ -280,6 +280,8 @@
 ![选择Install以正式开始安装](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/start-install-nsp.png "选择Install以正式开始安装")
 
 选择Install以正式开始安装。
+
+你也可以使用[Tinfoil](http://tinfoil.io/Download#download "Tinfoil")来安装游戏。该软件支持XCI直接安装，很多时候较为方便。
 
 ### 玩游戏
   建议你使用本地账户玩游戏，不要使用在线账户。一些长期联网的骨灰级破解玩家表示，使用本地账户玩nsp游戏可以有效降低被ban的概率。但一些新游戏会强制要求你使用在线账户游戏。
