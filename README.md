@@ -291,7 +291,7 @@
 
   [利用手机代替电脑，启动switch自制系统](https://www.jianshu.com/p/0d865d92c7b0 "利用手机代替电脑，启动switch自制系统")
 
-  [离线安装Switch系统](https://www.jianshu.com/p/01a99c7720ba "离线安装Switch系统")
+  [离线安装Switch系统](https://www.jianshu.com/p/6d5ba4be6cd8 "离线安装Switch系统")
 
   [使用Hekate恢复Rawnand备份](https://www.jianshu.com/p/7bf0d82576c0 "使用Hekate恢复Rawnand备份")
 
