@@ -5,19 +5,15 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV14.1编写，该版本基于Atmosphere0.9.4整合，使用hekate注入系统，支持4.0-9.0系统。
+  本文基于KosmosV14.2编写，该版本基于Atmosphere0.9.4整合，使用hekate注入系统，支持4.0-9.0.1系统。
 
-  修订日期：2019.9.19
+  修订日期：2019.10.11
 
 ## 更新说明
 
-  **相对于V13.2.1，V14.1主要**
+  **相对于V14.1，V14.2主要**
 
-  1.更新了到了Atmosphere0.9.4，支持9.0系统。
-  
-  2.由于9.0系统更改了hid设备标识，2019年9月15日前发布的自制软件，在Atmosphere上使用可能会出现bug，未来Atmosphere也会彻底移除这些旧软件的支持。建议准备换用新版本软件。对于旧tinfoil之类的不再更新的远古软件，建议放弃使用。总而言之，建议任何人在升级前直接删除/switch文件夹。
-
-  3.修复了Sandisk U1 SDR104 (数款超高速大容量TF)卡的兼容性问题。
+  1.更新了大量附赠软件。
 
   **KosmosV12.2及更低版本的用户必须删除旧自制文件**（比如，你可以删去除了Nintendo和Backup文件夹以外的所有内容）后安装。删除这些文件不会影响你已经安装的游戏和存档。
 
@@ -135,7 +131,7 @@
 
   在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
 
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-v14.1.zip](https://github.com/AtlasNX/Kosmos/releases/download/v14.1/Kosmos-v14.1.zip "Kosmos-v14.1.zip")并下载。
+  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-v14.2.zip](https://github.com/AtlasNX/Kosmos/releases/download/v14.2/Kosmos-v14.2.zip "Kosmos-v14.2.zip")并下载。
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
@@ -173,7 +169,7 @@
 
   如果你第一次操作，需要首先在你的私人电脑（不要使用网吧电脑，它们常常不能安装驱动）上解压TegraRcmGUI。你应当能看到一个名为apx_driver的文件夹，打开它。如果你的电脑运行着X64系统（大部分电脑都是这样的），双击InstallDriver，安装Switch RCM模式驱动。在以后的开机过程中，你不需要再次安装该驱动。
 
-  之后，运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.0.1.bin）。
+  之后，运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.0.2.bin）。
 
   卸下你的switch右joycon，将你的短接器插入switch右侧手柄导轨内，按住switch的音量键“+”，之后短按一次switch电源键。如果短接成功，switch看上去应当毫无变化。如果switch不幸开机了，请重试一次，直到成功为止。
 
