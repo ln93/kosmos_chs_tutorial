@@ -277,6 +277,8 @@
 
 选择Install以正式开始安装。
 
+如果安装报错（提示Invalid NCA），这一般是因为你没有安装上文提及的ES Sigpatch，因此无法正常安装破解游戏。
+
 你也可以使用[Tinfoil](http://tinfoil.io/Download#download "Tinfoil")来安装游戏。该软件支持XCI直接安装，很多时候较为方便。
 
 ### 玩游戏
