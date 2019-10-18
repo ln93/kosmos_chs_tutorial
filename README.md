@@ -279,7 +279,7 @@
 
 如果安装报错（提示Invalid NCA），这一般是因为你没有安装上文提及的ES Sigpatch，因此无法正常安装破解游戏。
 
-你也可以使用[Tinfoil](http://tinfoil.io/Download#download "Tinfoil")来安装游戏。该软件支持XCI直接安装，很多时候较为方便。
+你也可以使用[Tinfoil](http://tinfoil.io/Download#download "Tinfoil")来安装游戏。该软件支持XCI直接安装，很多时候较为方便。但它不支持最新版的大气层系统，因此tinfoil作者自行修改了大气层系统，并提供了对应的整合包，请酌情考虑使用。
 
 ### 玩游戏
   建议你使用本地账户玩游戏，不要使用在线账户。一些长期联网的骨灰级破解玩家表示，使用本地账户玩nsp游戏可以有效降低被ban的概率。但一些新游戏会强制要求你使用在线账户游戏。
