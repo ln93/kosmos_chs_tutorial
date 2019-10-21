@@ -261,23 +261,24 @@
 
   将tf卡插回你的switch，使用之前的破解switch开机法开机，之后，按住R键，同时点击相册（屏幕中间偏下的蓝色方形logo图标），进入hbmenu。找到并打开sdmc:/switch（也就是hbmenu默认目录）里面的goldleaf自制程序。
 
-![选择Browse SD card，找到你的nsp游戏安装文件](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/gold-leaf-mainpage.jpg "选择Browse SD card，找到你的nsp游戏安装文件")
+![选择Explorer Content](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/gold-leaf-mainpage.jpg "选择Explorer Content")
+![选择SD Card，找到你的nsp游戏安装文件](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/browse-sdcard.jpg "选择SD Card，找到你的nsp游戏安装文件")
+![选择Install开始安装](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/find-nsp.png "选择Install开始安装")
 
-选择Browse SD card，之后用方向键和A键找到并选择你的nsp游戏安装文件。
+选择Explorer Content,然后选择SD Card，之后用方向键和A键找到并选择你的nsp游戏安装文件，之后选择Install开始安装。
 
 ![选择你的游戏安装目的地——一般选择SD card。](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/select-nsp-installlocation.png "选择你的游戏安装目的地——一般选择SD card。")
 
 选择SD card以安装到TF卡。
 
-![选择Yes以进行固件版本欺骗安装](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/ignore-fw-requirement.png "选择Yes以进行固件版本欺骗安装")
-
-选择Yes以进行固件版本欺骗安装。但如果你始终使用最新的系统，建议选择No，否则在未来的系统升级中，你可能会遇到旧游戏无法启动的问题。
-
 ![选择Install以正式开始安装](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/start-install-nsp.png "选择Install以正式开始安装")
 
-选择Install以正式开始安装。
+选择Install以正式开始安装，耐心等待安装完成即可。
+
+![耐心等待安装完成即可](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/waiting-installing-nsp.jpg "耐心等待安装完成即可")
 
 如果安装报错（提示Invalid NCA），这一般是因为你没有安装上文提及的ES Sigpatch，因此无法正常安装破解游戏。
+
 
 如果不愿意拔卡，你也可以使用USB数据线让Goldleaf直接安装电脑上的nsp游戏。
 [Goldleaf的USB安装功能](https://www.jianshu.com/p/2714691c0e18 "Goldleaf的USB安装功能")
