@@ -24,17 +24,9 @@
 
 # 综述
 
-  “大气层”自制系统是SciresM主导的一个名为”Atmosphere”的项目，不过因为SciresM是一名坚定的正版支持者，原版的Atmosphere是不能直接用于玩盗版游戏的。实际上，我们所用的“大气层”都是其他人自行整合修改的。大部分整合包使用自制的payload，额外加载了ES Patches和其他一些组件，以允许你玩盗版游戏。
+  “大气层”自制系统是SciresM主导的一个名为”Atmosphere”的项目，不过因为SciresM是一名坚定的正版支持者，原版的Atmosphere是不能直接用于玩盗版游戏的。实际上，我们所用的“大气层”都是其他人自行整合修改的。大部分整合包使用自制的payload，额外加载了ES SigPatches和其他一些组件，以允许你玩盗版游戏。
 
   其中最著名的一个版本就是使用hekate引导的Kosmos整合包。
-
-  ReiNX作为一种使用简单的系统也受到很多人的喜爱。
-
-  SciresM自己发布的，使用fusee-primary引导的Atmosphere则显得较为正统。
-
-  三种系统各有特色，一般而言，我认为hekate的自定义功能更加丰富，ReiNX的界面更加好看，而atmosphere更适合正版用户。三者在能够支持的功能上没有很大的区别。
-
-  对于新手而言，建议先使用hekate。
 
 ## 准备工作
   在准备安装switch自制系统之前，确保你拥有一台具有RCM漏洞的switch，一张64G或者更大的TF卡，一个短接器，一条type-c数据线，一台电脑，一个读卡器。
@@ -92,9 +84,7 @@
   当然，你也可以自行制作短接器。锡纸短接法是目前比较流行的自制短接器方法，相信你一定能轻易百度到它的做法。由于自制短接器一般比较粗糙，如果你使用自制短接器，请尽量避免粗暴操作，以保护你的机身金手指。
 
   至于各种比较昂贵的“大气层U盘”或者“大气层注入器”，它们并不是switch破解的必备产品，你可以自行选择是否购买。
-
-  另外，虽然大气层类破解是完全免费的，淘宝商家还是愿意将全套破解服务和大气层注入器一起卖给你。不管商家吹的多么天花乱坠，全套大气层傻瓜破解的合理价格应该在50-100元附近。如果此类产品的价格超过100，而你甚至还真的打算买，那么建议您去购买邪恶愚蠢的SX PRO作为上位替代。虽然SX PRO现在并不值得购买，但是和300元的大气层比起来嘛。。
-
+  
 ### switch的exFAT驱动
 
   exFAT文件系统支持超过4GB的大型游戏安装包，在TF卡上的读写速度也较快，非常实用。因此你现在能够购买到的大容量tf卡，出厂时均为exFAT格式。
@@ -135,17 +125,14 @@
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
-**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在此一并下载**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")
-
-[Kosmos_patches_09_10_2019.7z](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches_09_10_2019.7z "Kosmos_patches_09_10_2019.7z")。
+**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")这个网站上一并下载[Kosmos_patches_09_10_2019.7z](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches_09_10_2019.7z "Kosmos_patches_09_10_2019.7z")。
   
 **如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
 
 ### TegraRCMGUI
-  [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases "TegraRcmGUI")
 
-  为了启动破解系统，你需要在这里下载最新版本的[TegraRcmGUI_v2.6_portable.zip](https://github.com/eliboa/TegraRcmGUI/releases/download/2.6/TegraRcmGUI_v2.6_portable.zip "TegraRcmGUI_v2.6_portable.zip")
+  为了启动破解系统，你需要在 [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases "TegraRcmGUI")这个网站上下载最新版本的[TegraRcmGUI_v2.6_portable.zip](https://github.com/eliboa/TegraRcmGUI/releases/download/2.6/TegraRcmGUI_v2.6_portable.zip "TegraRcmGUI_v2.6_portable.zip")
 
   如果你购买了大气层u盘，可以用大气层u盘替代这个程序。每种大气层u盘的操作方法均不相同，但原理都是将对应的payload注入到switch中，详情请咨询卖你u盘的店主。你可是交了税的，他们必须教你。
 
@@ -167,9 +154,9 @@
 ### 启动破解系统
   接下来，我们讨论如何进入破解系统。
 
-  如果你第一次操作，需要首先在你的私人电脑（不要使用网吧电脑，它们常常不能安装驱动）上解压TegraRcmGUI。你应当能看到一个名为apx_driver的文件夹，打开它。如果你的电脑运行着X64系统（大部分电脑都是这样的），双击InstallDriver，安装Switch RCM模式驱动。在以后的开机过程中，你不需要再次安装该驱动。
+  如果你第一次操作，需要首先在你的私人电脑（不要使用网吧电脑，它们常常不能安装驱动）上解压TegraRcmGUI。你应当能看到一个名为apx_driver的文件夹，打开它。如果你的电脑运行着X64系统（大部分电脑都是这样的），双击InstallDriver，安装Switch RCM模式驱动。
 
-  之后，运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.0.2.bin）。
+  如果你的电脑已经具有了Switch RCM模式驱动，则可以运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.0.2.bin）。
 
   卸下你的switch右joycon，将你的短接器插入switch右侧手柄导轨内，按住switch的音量键“+”，之后短按一次switch电源键。如果短接成功，switch看上去应当毫无变化。如果switch不幸开机了，请重试一次，直到成功为止。
 
@@ -220,9 +207,9 @@
 ### 其他一些可能有用的说明
 在该系统下，你的汉化补丁和mod放在atmosphere文件夹内。
 
-  如果你使用Mac OS X破解，可以用hekate修复OS X造成的奇怪问题。
+如果你使用Mac OS X破解，可以用hekate修复OS X造成的奇怪问题。
 
-  Mac用户在用Mac破解后，第一次开机时，选择Tools-Unset archive bit(switch folder)，耐心等待至绿字出现，按任意键返回即可。
+Mac用户在用Mac破解后，第一次开机时，选择Tools-Unset archive bit(switch folder)，耐心等待至绿字出现，按任意键返回即可。
 
 ## 我能开始玩了吗
 ### 保持断网
