@@ -7,7 +7,7 @@
 
   本文基于KosmosV14.2编写，该版本基于Atmosphere0.9.4整合，使用hekate注入系统，支持4.0-9.0.1系统。
 
-  修订日期：2019.10.11
+  修订日期：2019.10.21
 
 ## 更新说明
 
@@ -279,6 +279,9 @@
 
 如果安装报错（提示Invalid NCA），这一般是因为你没有安装上文提及的ES Sigpatch，因此无法正常安装破解游戏。
 
+如果不愿意拔卡，你也可以使用USB数据线让Goldleaf直接安装电脑上的nsp游戏。
+[Goldleaf的USB安装功能](https://www.jianshu.com/p/2714691c0e18 "Goldleaf的USB安装功能")
+
 你也可以使用[Tinfoil](http://tinfoil.io/Download#download "Tinfoil")来安装游戏。该软件支持XCI直接安装，很多时候较为方便。但它不支持最新版的大气层系统，因此tinfoil作者自行修改了大气层系统，并提供了对应的整合包，请酌情考虑使用。
 
 ### 玩游戏
@@ -297,7 +300,6 @@
 
   [使用Hekate恢复Rawnand备份](https://www.jianshu.com/p/7bf0d82576c0 "使用Hekate恢复Rawnand备份")
 
-  [Goldleaf的其它一些功能(USB安装等功能)](https://www.jianshu.com/p/2714691c0e18 "Goldleaf的其它一些功能(USB安装等功能)")
 
 ### 一些进阶内容：
 
