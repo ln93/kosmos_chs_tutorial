@@ -125,7 +125,7 @@
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
-**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")这个网站上一并下载[Kosmos_patches_09_10_2019.7z](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches_09_10_2019.7z "Kosmos_patches_09_10_2019.7z")。
+**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")这个网站上一并下载[Kosmos_patches_10_09_2019.zip](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches_10_09_2019.zip "Kosmos_patches_10_09_2019.zip")。
   
 **如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
