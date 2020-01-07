@@ -7,7 +7,7 @@
 
   本文基于KosmosV15编写，该版本基于Atmosphere0.10.1整合，使用hekate注入系统，支持4.0-9.1.0系统。
 
-  修订日期：2020.1.1
+  修订日期：2020.1.7
 
 ## 更新说明
 
@@ -129,7 +129,7 @@
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
-**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")这个网站上一并下载[Kosmos_patches_12_08_2019.zip](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches_12_08_2019.zip "Kosmos_patches_12_08_2019.zip")。
+**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")这个网站上一并下载[Kosmos_patches_12_08_2019_bootconfig.zip](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches_12_08_2019_bootconfig.zip "Kosmos_patches_12_08_2019_bootconfig.zip")。
   
 **如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
