@@ -211,7 +211,7 @@
   选择Launch。如果你做了虚拟系统，选择CFW(EMUNAND)可以进入虚拟破解系统，选择CFW(SYSNAND)可以进入真实破解系统；如果你没有做虚拟系统，选择CFW(SYSNAND)或CFW(EMUNAND)均只能进入真实破解系统。如果在点击CFW后发现Switch黑屏无法启动，建议回去重新阅读关于exFAT驱动的说明。
 
 ### 其他一些可能有用的说明
-在该系统下，你的汉化补丁和mod放在atmosphere文件夹内。
+在该系统下，你的汉化补丁和mod放在atmosphere/contents文件夹内。
 
 如果你使用Mac OS X破解，可以用hekate修复OS X造成的奇怪问题。
 
