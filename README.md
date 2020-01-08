@@ -20,6 +20,8 @@
   3.更新到了Atmosphere0.10.2，支持9.1.0系统。
   
   4.将atmosphere/titles改名为atmosphere/contents，mod用户和补丁用户需要格外注意。
+  
+  5.默认关闭hid-mitm，旧时代的自制软件可能无法正常运行。
 
   **KosmosV12.2及更低版本的用户必须删除旧自制文件**（比如，你可以删去除了Nintendo,emummc和Backup文件夹以外的所有内容）后安装。删除这些文件不会影响你已经安装的游戏和存档。
 
