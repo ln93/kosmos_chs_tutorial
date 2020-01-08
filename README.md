@@ -5,19 +5,21 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV15编写，该版本基于Atmosphere0.10.1整合，使用hekate注入系统，支持4.0-9.1.0系统。
+  本文基于KosmosV15.1编写，该版本基于Atmosphere0.10.2整合，使用hekate注入系统，支持4.0-9.1.0系统。
 
-  修订日期：2020.1.7
+  修订日期：2020.1.8
 
 ## 更新说明
 
-  **相对于V14.2，V15主要**
+  **相对于V14.2，V15.1主要**
 
   1.更新了大量附赠软件。
   
   2.添加了Sys-Con组件。你可以在ns上直接使用Xbox和PS4手柄了。
   
-  3.更新到了Atmosphere0.10.1，支持9.1.0系统。
+  3.更新到了Atmosphere0.10.2，支持9.1.0系统。
+  
+  4.将atmosphere/titles改名为atmosphere/contents，mod用户和补丁用户需要格外注意。
 
   **KosmosV12.2及更低版本的用户必须删除旧自制文件**（比如，你可以删去除了Nintendo,emummc和Backup文件夹以外的所有内容）后安装。删除这些文件不会影响你已经安装的游戏和存档。
 
@@ -125,7 +127,7 @@
 
   在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
 
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-v15.zip](https://github.com/AtlasNX/Kosmos/releases/download/v15/Kosmos-v15.zip "Kosmos-v15.zip")并下载。
+  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-v15.1.zip](https://github.com/AtlasNX/Kosmos/releases/download/v15.1/Kosmos-v15.1.zip "Kosmos-v15.1.zip")并下载。
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
