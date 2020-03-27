@@ -5,23 +5,19 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV15.1编写，该版本基于Atmosphere0.10.2整合，使用hekate注入系统，支持4.0-9.1.0系统。
+  本文基于KosmosV15.3编写，该版本基于Atmosphere0.10.3整合，使用hekate注入系统，支持9.0-9.2.0系统。
 
-  修订日期：2020.1.8
+  修订日期：2020.3.27
 
 ## 更新说明
 
-  **相对于V14.2，V15.1主要**
+  **相对于V15.1，V15.3主要**
 
-  1.更新了大量附赠软件。
+  1.添加了系统监视面板，可以通过按下L和方向键下触发面板以获得switch的当前信息。
   
-  2.添加了Sys-Con组件。你可以在ns上直接使用Xbox和PS4手柄了。
+  2.日常更新了随机自制软件。
   
-  3.更新到了Atmosphere0.10.2，支持9.1.0系统。
-  
-  4.将atmosphere/titles改名为atmosphere/contents，mod用户和补丁用户需要格外注意。
-  
-  5.默认关闭hid-mitm，旧时代的自制软件可能无法正常运行。
+  3.更新到了Atmosphere0.10.3，支持9.2.0系统。
 
   **KosmosV12.2及更低版本的用户必须删除旧自制文件**（比如，你可以删去除了Nintendo,emummc和Backup文件夹以外的所有内容）后安装。删除这些文件不会影响你已经安装的游戏和存档。
   
@@ -131,11 +127,11 @@
 
   在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
 
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos-v15.1.zip](https://github.com/AtlasNX/Kosmos/releases/download/v15.1/Kosmos-v15.1.zip "Kosmos-v15.1.zip")并下载。
+  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos.v15.3.zip](https://github.com/AtlasNX/Kosmos/releases/download/v15.3/Kosmos.v15.3.zip "Kosmos.v15.3.zip")并下载。
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
-**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")这个网站上一并下载[Kosmos_patches_12_08_2019_bootconfig.zip](https://github.com/Joonie86/hekate/releases/download/5.0.0J/Kosmos_patches_12_08_2019_bootconfig.zip "Kosmos_patches_12_08_2019_bootconfig.zip")。
+**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")这个网站上一并下载[Kosmos_patches_03_15_2020_bootconfig_tinfoilv8+.zip](https://github.com/Joonie86/hekate/releases/download/15.3/Kosmos_patches_03_15_2020_bootconfig_tinfoilv8+.zip "Kosmos_patches_03_15_2020_bootconfig_tinfoilv8+.zip")。
   
 **如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
@@ -153,7 +149,7 @@
 
   请使用Windows电脑打开这个压缩包，把里面的文件夹和文件直接拖入TF卡根目录。不要使用手机，安卓平板，或者Mac电脑。如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
-  另外，在压缩包根目录下找到hekate_ctcaer_5.1.1.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
+  另外，在压缩包根目录下找到hekate_ctcaer_5.1.3.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
 
   **如果你希望玩破解游戏，还需要将Kosmos_patches.7z解压，将atmosphere和bootloader文件夹放入TF卡的根目录，也就是与TF卡内原有的atmosphere文件夹合并。**
 
@@ -166,7 +162,7 @@
 
   如果你第一次操作，需要首先在你的私人电脑（不要使用网吧电脑，它们常常不能安装驱动）上解压TegraRcmGUI。你应当能看到一个名为apx_driver的文件夹，打开它。如果你的电脑运行着X64系统（大部分电脑都是这样的），双击InstallDriver，安装Switch RCM模式驱动。
 
-  如果你的电脑已经具有了Switch RCM模式驱动，则可以运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.1.1.bin）。
+  如果你的电脑已经具有了Switch RCM模式驱动，则可以运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.1.3.bin）。
 
   卸下你的switch右joycon，将你的短接器插入switch右侧手柄导轨内，按住switch的音量键“+”，之后短按一次switch电源键。如果短接成功，switch看上去应当毫无变化。如果switch不幸开机了，请重试一次，直到成功为止。
 
@@ -282,7 +278,7 @@ Mac用户在用Mac破解后，第一次开机时，选择Tools-Unset archive bit
 如果不愿意拔卡，你也可以使用USB数据线让Goldleaf直接安装电脑上的nsp游戏。
 [Goldleaf的USB安装功能](https://www.jianshu.com/p/2714691c0e18 "Goldleaf的USB安装功能")
 
-你也可以使用[Tinfoil](http://tinfoil.io/Download#download "Tinfoil")来安装游戏。该软件支持XCI直接安装，很多时候较为方便。但它不支持最新版的大气层系统，因此tinfoil作者自行修改了大气层系统，并提供了对应的整合包，请酌情考虑使用。
+你也可以使用[Tinfoil](http://tinfoil.io/Download#download "Tinfoil")来安装游戏。该软件支持XCI直接安装，很多时候较为方便。
 
 ### 玩游戏
   建议你使用本地账户玩游戏，不要使用在线账户。一些长期联网的骨灰级破解玩家表示，使用本地账户玩nsp游戏可以有效降低被ban的概率。但一些新游戏会强制要求你使用在线账户游戏。
