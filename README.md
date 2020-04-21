@@ -5,21 +5,21 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV15.3编写，该版本基于Atmosphere0.10.3整合，使用hekate注入系统，支持9.0-9.2.0系统。
+  本文基于KosmosV15.6编写，该版本基于Atmosphere0.11.1整合，使用hekate注入系统，支持9.0-10.0系统。
 
-  修订日期：2020.3.27
+  修订日期：2020.4.21
 
 ## 更新说明
 
-  **相对于V15.1，V15.3主要**
+  **相对于V15.3，V15.6主要**
 
-  1.添加了系统监视面板，可以通过按下L和方向键下触发面板以获得switch的当前信息。
+  1.添加了Kosmos Cleaner自制软件，用于清理机内的老版本Kosmos垃圾文件。
   
   2.日常更新了随机自制软件。
   
-  3.更新到了Atmosphere0.10.3，支持9.2.0系统。
+  3.更新到了Atmosphere0.11.1，支持10.0系统。
 
-  **KosmosV12.2及更低版本的用户必须删除旧自制文件**（比如，你可以删去除了Nintendo,emummc和Backup文件夹以外的所有内容）后安装。删除这些文件不会影响你已经安装的游戏和存档。
+  **KosmosV15.3及更低版本的用户必须删除旧自制文件**（比如，你可以删去除了Nintendo,emummc和Backup文件夹以外的所有内容）后安装。删除这些文件不会影响你已经安装的游戏和存档。
   
   使用基于LayeredFS的各种系统补丁（如系统主题，Homebrew引导补丁等）的用户建议删除atmosphere/titles和atmosphere/contents内的相关内容后安装。
 
@@ -127,13 +127,13 @@
 
   在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
 
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos.v15.3.zip](https://github.com/AtlasNX/Kosmos/releases/download/v15.3/Kosmos.v15.3.zip "Kosmos.v15.3.zip")并下载。
+  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos.v15.6.zip](https://github.com/AtlasNX/Kosmos/releases/download/v15.6/Kosmos-v15.6.zip "Kosmos-v15.6.zip")并下载。
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
-**如果你希望玩破解游戏，你需要自行添加ES SigPatch，因此你还需要在**[Kosmos_patches](https://github.com/Joonie86/hekate/releases "ES.patches")这个网站上一并下载[Kosmos_patches_03_15_2020_bootconfig_tinfoilv8+.zip](https://github.com/Joonie86/hekate/releases/download/15.3/Kosmos_patches_03_15_2020_bootconfig_tinfoilv8+.zip "Kosmos_patches_03_15_2020_bootconfig_tinfoilv8+.zip")。
+**如果你希望玩破解游戏，你需要自行添加SigPatch，因此你还需要在**[HarukoNX的补丁库](https://github.com/HarukoNX/Atmosphere/releases "ES.patches")一并下载loader.kip和patches.ini。
   
-**如果你不下载ES SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
+**如果你不下载SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
 
 ### TegraRCMGUI
@@ -149,9 +149,20 @@
 
   请使用Windows电脑打开这个压缩包，把里面的文件夹和文件直接拖入TF卡根目录。不要使用手机，安卓平板，或者Mac电脑。如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
-  另外，在压缩包根目录下找到hekate_ctcaer_5.1.3.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
+  另外，在压缩包根目录下找到hekate_ctcaer_5.1.4.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。
 
-  **如果你希望玩破解游戏，还需要将Kosmos_patches.7z解压，将atmosphere和bootloader文件夹放入TF卡的根目录，也就是与TF卡内原有的atmosphere文件夹合并。**
+  **如果你希望玩破解游戏，还需要安装Sigpatch，方法如下：**
+  
+  *1.打开TF卡，在atmosphere文件夹下创建一个名为kips的文件夹，将loader.kip放到atmosphere/kips文件夹内。*
+  
+  *2.将patches.ini放到bootloader文件夹内。*
+  
+  *3.在bootloader文件夹下找到hekate_ipl.ini，使用记事本打开，找到[CFW (SYSNAND)]和[CFW (EMUMMC)]，且均在下方添加下列代码：*
+  
+  	kip1patch=nosigchk
+  	kip1=atmosphere/kips/*
+  
+  
 
   然后，将switch彻底关机（长按电源键8秒，switch将跳出关机菜单，选择power options-turn off），将TF卡插入你的switch。
 
@@ -162,7 +173,7 @@
 
   如果你第一次操作，需要首先在你的私人电脑（不要使用网吧电脑，它们常常不能安装驱动）上解压TegraRcmGUI。你应当能看到一个名为apx_driver的文件夹，打开它。如果你的电脑运行着X64系统（大部分电脑都是这样的），双击InstallDriver，安装Switch RCM模式驱动。
 
-  如果你的电脑已经具有了Switch RCM模式驱动，则可以运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.1.3.bin）。
+  如果你的电脑已经具有了Switch RCM模式驱动，则可以运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.1.4.bin）。
 
   卸下你的switch右joycon，将你的短接器插入switch右侧手柄导轨内，按住switch的音量键“+”，之后短按一次switch电源键。如果短接成功，switch看上去应当毫无变化。如果switch不幸开机了，请重试一次，直到成功为止。
 
