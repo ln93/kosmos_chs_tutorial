@@ -131,9 +131,9 @@
   
 **如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
   
-**如果你希望玩破解游戏，你需要自行添加SigPatch，因此你还需要在**[HarukoNX的补丁库](https://github.com/HarukoNX/Atmosphere/releases "ES.patches")一并下载loader.kip和patches.ini。
-  
-**如果你不下载SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
+**如果你希望玩破解游戏，你需要自行添加FS SigPatch，因此你还需要在**[HarukoNX的补丁库](https://github.com/HarukoNX/Atmosphere/releases "ES.patches")一并下载loader.kip和patches.ini。该补丁包含ACID和FS SigPatch，不包含ES SigPatch，你只能用它运行未经篡改的破解游戏，不能用它运行
+“魔改”游戏。  
+**如果你不下载FS SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
 
 ### TegraRCMGUI
