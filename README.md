@@ -297,8 +297,8 @@ Mac用户在用Mac破解后，第一次开机时，选择Tools-Unset archive bit
   对于SXOS/PRO用户的XCI游戏而言，本地账户不是必须的。但是如果你玩的游戏含有nsp DLC或者升级补丁，依然建议你使用本地账户。
 
 ## 其它一些有用的东西
-  如果你喜欢本文，并且希望加入有趣的交流群，[欢迎加入NintendoSwitchFirmWare](https://jq.qq.com/?_wv=1027&k=5HofeCO "欢迎加入NintendoSwitchFirmWare")
-
+  如果你喜欢本文，并且希望加入有趣的交流群，[欢迎加入NintendoSwitchFirmWare](https://jq.qq.com/?_wv=1027&k=5HofeCO "欢迎加入NintendoSwitchFirmWare")。不过大多数情况下，群内的聊天主题和switch没什么关联。
+  
   如果你对更个性化的修改感兴趣，可以参考：
 
   [利用手机代替电脑，启动switch自制系统](https://www.jianshu.com/p/0d865d92c7b0 "利用手机代替电脑，启动switch自制系统")
