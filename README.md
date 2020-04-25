@@ -133,6 +133,8 @@
   
 **如果你希望玩破解游戏，你需要自行添加FS SigPatch，因此你还需要在**[HarukoNX的补丁库](https://github.com/HarukoNX/Atmosphere/releases "ES.patches")一并下载loader.kip和patches.ini。该补丁包含ACID和FS SigPatch，不包含ES SigPatch，你只能用它运行未经篡改的破解游戏，不能用它运行
 “魔改”游戏。  
+
+当然，你也可以在[SDSetup](https://sdsetup.com/console?switch "SDSetup")网站上下载Kosmos整合包，该网站提供的Kosmos整合包含有完整的ES/FS/ACID补丁，可以提供最完整的破解体验。下载时需要依次选择“Kosmos Defaults”下方的红色"select"按钮，并手动勾选“Signature Patches(ES/ACID)”，最终在页面下方点击Download your zip。
 **如果你不下载FS SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
 
