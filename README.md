@@ -135,7 +135,7 @@
 。该软件可以帮你安装ACID和FS SigPatch，但不能帮你安装ES SigPatch，你只能用它运行未经篡改的破解游戏，不能用它运行
 “魔改”游戏。由于目前中文游戏资源大多为“魔改”游戏资源，因此对于新手或者一般用户而言，不建议使用这种方法。
 
-你可以在[SDSetup](https://sdsetup.com/console?switch "SDSetup")网站上下载Kosmos整合包，**这也是本教程最为推荐的方法**。该网站提供的Kosmos整合包含有完整的ES/FS/ACID补丁，可以提供最完整的破解体验。下载时需要依次选择“Kosmos Defaults”下方的红色"select"按钮，并手动勾选“Signature Patches(ES/ACID)”，最终在页面下方点击Download your zip。
+对于新手和普通用户而言，你可以在[SDSetup](https://sdsetup.com/console?switch "SDSetup")网站上下载Kosmos整合包，**这也是本教程最为推荐的方法**。该网站提供的Kosmos整合包含有完整的ES/FS/ACID补丁，可以提供最完整的破解体验。下载时需要依次选择“Kosmos Defaults”下方的红色"select"按钮，并手动勾选“Signature Patches(ES/ACID)”，最终在页面下方点击Download your zip。
 **如果你不下载FS SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
 
 
