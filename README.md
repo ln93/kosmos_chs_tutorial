@@ -5,7 +5,9 @@
 
   许多switch自制玩家们偏爱免费的“大气层”自制系统，却苦于网络上的教程大都支离破碎，甚至显得有些过时，而不得不花费高额的成本转向SX系列产品。因此，有必要提供一份比较不易过时的教程。
 
-  本文基于KosmosV16.1编写，该版本基于Atmosphere0.12.0整合，使用hekate注入系统。为了完全发挥新版Kosmos的功能，需要9.0以上版本的Switch系统。
+  <del>本文基于KosmosV16.1编写，该版本基于Atmosphere0.12.0整合，使用hekate注入系统。为了完全发挥新版Kosmos的功能，需要9.0以上版本的Switch系统。
+  
+  随着Kosmos的停止开发，本文转向SDSetup编写教程。
   
   修订日期：2020.5.22
 
@@ -123,23 +125,10 @@
 ## 下载必备软件
 
 ### Kosmos整合包
-  如果你是一名正版用户，只希望安装Mod和汉化包，不希望玩破解游戏，也不希望被Ban机，那么，你应该去以下网站下载最新版本的Kosmos整合包。
 
- [Kosmos-releases](https://github.com/AtlasNX/Kosmos/releases "Kosmos-releases")
+很遗憾，Kosmos已经停止开发了，不过你可以在SDSetup下下载Hekate+Atmosphere整合包，获得类似Kosmos的体验。
 
-  在页面中，你会看到很多个发行版本。大多数时候，建议你下载最新的版本。
-
-  建议你找到”Latest release”图标，然后在右边找到Assets下方的[Kosmos.v15.6.zip](https://github.com/AtlasNX/Kosmos/releases/download/v15.6/Kosmos-v15.6.zip "Kosmos-v15.6.zip")并下载。
-  
-**如果你希望玩破解游戏，你应当自行承担由此带来的法律和道德责任。**
-  
-**如果你希望玩破解游戏，你需要自行添加FS SigPatch，因此你还需要在**[HarukoNX的补丁库](https://github.com/HarukoNX/Atmosphere/releases "ES.patches")一并下载Sigpatch-Installer.nro
-。该软件可以帮你安装ACID和FS SigPatch，但不能帮你安装ES SigPatch，你只能用它运行未经篡改的破解游戏，不能用它运行
-“魔改”游戏。由于目前中文游戏资源大多为“魔改”游戏资源，因此对于新手或者一般用户而言，不建议使用这种方法。
-
-对于新手和普通用户而言，你可以在[SDSetup](https://sdsetup.com/console?switch "SDSetup")网站上下载Kosmos整合包，**这也是本教程最为推荐的方法**。该网站提供的Kosmos整合包含有完整的ES/FS/ACID补丁，可以提供最完整的破解体验。下载时需要依次选择“Kosmos Defaults”下方的红色"select"按钮，并手动勾选“Signature Patches(ES/ACID)”，最终在页面下方点击Download your zip。
-**如果你不下载FS SigPatch，你将不能运行破解游戏，也就无需承担对应的法律和道德责任。**
-
+对于普通用户而言，你可以在[SDSetup](https://sdsetup.com/console?switch "SDSetup")网站上下载整合包。该网站提供的整合包含有完整的ES/FS/ACID补丁，可以提供最完整的破解体验。下载时需要依次选择“Recommended Defaults”下方的红色"select"按钮，并手动勾选“Signature Patches(ES/ACID)”，最终在页面下方点击Download your zip。
 
 ### TegraRCMGUI
 
@@ -150,11 +139,11 @@
 ## 让我们开始吧
 
 ### 准备TF卡文件
-  还记得刚刚你下载的Kosmos压缩包吧。你应该把里面的文件放入TF卡内(如果你从SD Setup下载了整合包，你应该把“sd”文件夹内的文件放入TF卡内)。
+  还记得刚刚你下载的SDSetup压缩包吧。你应该把里面的文件放入TF卡内(如果你从SD Setup下载了整合包，你应该把“sd”文件夹内的文件放入TF卡内)。
 
-  请使用Windows电脑打开这个压缩包，把里面的文件夹和文件直接拖入TF卡根目录。不要使用手机，安卓平板，或者Mac电脑。如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
+  请使用Windows电脑打开这个压缩包，把其中的“sd”目录下的文件拖入TF卡根目录。不要使用手机，安卓平板，或者Mac电脑。如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
-  另外，在压缩包根目录下(如果你从SD Setup下载了整合包，则为“payloads”目录下)找到hekate_ctcaer_5.2.1.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。  
+  另外，在压缩包中的“payloads”目录下找到hekate_ctcaer_x.y.z.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。  
 
   然后，将switch彻底关机（长按电源键8秒，switch将跳出关机菜单，选择power options-turn off），将TF卡插入你的switch。
 
@@ -165,7 +154,7 @@
 
   如果你第一次操作，需要首先在你的私人电脑（不要使用网吧电脑，它们常常不能安装驱动）上解压TegraRcmGUI。你应当能看到一个名为apx_driver的文件夹，打开它。如果你的电脑运行着X64系统（大部分电脑都是这样的），双击InstallDriver，安装Switch RCM模式驱动。
 
-  如果你的电脑已经具有了Switch RCM模式驱动，则可以运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_5.2.1.bin）。
+  如果你的电脑已经具有了Switch RCM模式驱动，则可以运行TegraRcmGUI，点击Select Payload输入框右边的文件夹图标，打开刚刚预先准备的payload文件（比如hekate_ctcaer_x.y.z.bin）。
 
   卸下你的switch右joycon，将你的短接器插入switch右侧手柄导轨内，按住switch的音量键“+”，之后短按一次switch电源键。如果短接成功，switch看上去应当毫无变化。如果switch不幸开机了，请重试一次，直到成功为止。
 
