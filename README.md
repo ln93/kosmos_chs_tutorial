@@ -109,7 +109,7 @@
 
 ![该界面表示你缺少exfat驱动](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/need-to-update.jpg "该界面表示你缺少exfat驱动")
 
-  在这一界面下，你固然可以直接点击"System Update"，更新到最新系统以获得exFat驱动。**但是，最新的系统常常不支持破解，因此这不是一个很好的方法。**
+  在这一界面下，你固然可以直接点击"System Update"，更新到最新系统以获得exFat驱动。**但是，最新的系统有时不支持破解，因此这不是一个很好的方法。**
 
   如果你不想联网更新，则可以点击“Later”并关机。一种安全的安装exFAT驱动的方法是：通过离线更新的方法来获得exFAT驱动，从而避免联网。为了实现这种完美而复杂的方法，需要进行下面的三步操作：
 
