@@ -13,7 +13,9 @@
 
 ## 更新说明
 	
-  **Kosmos已经停止开发了，但你依然可以在本文中找到SDSetup的链接获取整合包。**
+  **Kosmos已经停止开发了，但你依然可以在本文中找到Deepsea的仓库获取整合包。**
+  
+  **教程本身是通用的，不必担心。**
 
   **相对于V15.6，V16.1主要**
 
@@ -126,9 +128,11 @@
 
 ### Kosmos整合包
 
-很遗憾，Kosmos已经停止开发了，不过你可以在SDSetup下下载Hekate+Atmosphere整合包，获得类似Kosmos的体验。
+很遗憾，Kosmos已经停止开发了，不过你可以在Deepsea下载Hekate+Atmosphere整合包，获得类似Kosmos的体验。
 
-对于普通用户而言，你可以在[SDSetup](https://sdsetup.com/console?switch "SDSetup")网站上下载整合包。该网站提供的整合包含有完整的ES/FS/ACID补丁，可以提供最完整的破解体验。下载时需要依次选择“Recommended Defaults”下方的红色"select"按钮，并手动勾选“Signature Patches(ES/ACID)”，最终在页面下方点击Download your zip。
+对于普通用户而言，你可以在[Deepsea](https://github.com/Team-Neptune/DeepSea "Deepsea")这个仓库上下载整合包。该网站提供的整合包不含ES/FS/ACID补丁，不支持盗版游戏。目前[Awoo](https://github.com/Huntereb/Awoo-Installer/releases "Awoo")提供了在线下载ES/FS/ACID补丁的功能，但这可能会导致ban机。请自行抉择。
+
+当然，你也可以自行google it。使用ES/FS/ACID补丁可能会违反多条法律，因此大多数正规网站不会提供下载。
 
 ### TegraRCMGUI
 
@@ -139,7 +143,7 @@
 ## 让我们开始吧
 
 ### 准备TF卡文件
-  还记得刚刚你下载的SDSetup压缩包吧。你应该把里面的文件放入TF卡内(如果你从SD Setup下载了整合包，你应该把“sd”文件夹内的文件放入TF卡内)。
+  还记得刚刚你下载的Deepsea压缩包吧。你应该把里面的文件放入TF卡内(如果你从SD Setup下载了整合包，你应该把“sd”文件夹内的文件放入TF卡内)。
 
   请使用Windows电脑打开这个压缩包，把其中的“sd”目录下的文件拖入TF卡根目录。不要使用手机，安卓平板，或者Mac电脑。如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
