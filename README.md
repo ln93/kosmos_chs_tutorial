@@ -7,9 +7,9 @@
 
   <del>本文基于KosmosV16.1编写，该版本基于Atmosphere0.12.0整合，使用hekate注入系统。为了完全发挥新版Kosmos的功能，需要9.0以上版本的Switch系统。
   
-  随着Kosmos的停止开发，本文转向SDSetup编写教程。
+  Kosmos已经停止了开发，本文仅具有有限的参考价值。
   
-  修订日期：2020.5.22
+  修订日期：2020.12.1
 
 ## 更新说明
 	
@@ -143,9 +143,9 @@
 ## 让我们开始吧
 
 ### 准备TF卡文件
-  还记得刚刚你下载的Deepsea压缩包吧。你应该把里面的文件放入TF卡内(如果你从SD Setup下载了整合包，你应该把“sd”文件夹内的文件放入TF卡内)。
+  还记得刚刚你下载的Deepsea压缩包吧。你应该把里面的文件放入TF卡内(如果你还下载了awoo-installer，你应该将其解压后，把”switch“文件夹与tf卡内的同名文件夹合并。)
 
-  请使用Windows电脑打开这个压缩包，把其中的“sd”目录下的文件拖入TF卡根目录。不要使用手机，安卓平板，或者Mac电脑。如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
+  请使用Windows电脑打开这个压缩包，把压缩包目录下的所有文件拖入TF卡根目录（不要使用手机，安卓平板，或者MacOS电脑，这些操作系统对exFat文件系统的使用方法常常和ns不兼容，因而只能用于传输游戏，不能用于传输破解文件。）如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
   另外，在压缩包中的“payloads”目录下找到hekate_ctcaer_x.y.z.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。  
 
@@ -228,54 +228,8 @@ Mac用户在用Mac破解后，第一次开机时，选择Tools-Unset archive bit
   即可。
 
 ### 安装游戏
-  kosmos整合包自带的goldleaf仅支持安装nsp游戏，故建议你下载一些nsp游戏。
-
-  你需要先关机，然后取出TF卡，之后用读卡器往TF卡内放入游戏文件。
-
-  我们以战场女武神1为例：
-
-  当你下载了战场女武神1以后，你可能会获得两个文件：
-
-  Valkyria for battlefield for Nintendo Switch [UPD][0100E6900A5A8800][v65536].nsp
-
-  以及
-
-  Valkyria for battlefield for Nintendo Switch [0100E6900A5A8000][v0].nsp
-
-  第一个文件末尾的title id为800，而且含有[UPD]字样，代表它是一个升级补丁。
-
-  第二个文件末尾的title id为000，一般是游戏本体。
-
-  其他情况一般为DLC。
-
-  现在，你需要将这两个nsp文件放入你的TF卡内。
-
-  将tf卡插回你的switch，使用之前的破解switch开机法开机，之后，按住R键，同时点击相册（屏幕中间偏下的蓝色方形logo图标），进入hbmenu。找到并打开sdmc:/switch（也就是hbmenu默认目录）里面的goldleaf自制程序。
-
-![选择Explorer Content](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/gold-leaf-mainpage.jpg "选择Explorer Content")
-![选择SD Card，找到你的nsp游戏安装文件](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/browse-sdcard.jpg "选择SD Card，找到你的nsp游戏安装文件")
-![选择Install开始安装](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/find-nsp.png "选择Install开始安装")
-
-选择Explorer Content,然后选择SD Card，之后用方向键和A键找到并选择你的nsp游戏安装文件，之后选择Install开始安装。
-
-![选择你的游戏安装目的地——一般选择SD card。](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/select-nsp-installlocation.png "选择你的游戏安装目的地——一般选择SD card。")
-
-选择SD card以安装到TF卡。
-
-![选择Install以正式开始安装](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/start-install-nsp.png "选择Install以正式开始安装")
-
-选择Install以正式开始安装，耐心等待安装完成即可。
-
-![耐心等待安装完成即可](https://github.com/ln93/kosmos_chs_tutorial/raw/master/imgs/waiting-installing-nsp.jpg "耐心等待安装完成即可")
-
-如果安装报错（提示Invalid NCA），这一般是因为你没有安装上文提及的ES Sigpatch，因此无法正常安装破解游戏。
-
-
-如果不愿意拔卡，你也可以使用USB数据线让Goldleaf直接安装电脑上的nsp游戏。
-[Goldleaf的USB安装功能](https://www.jianshu.com/p/2714691c0e18 "Goldleaf的USB安装功能")
-
-你也可以使用[Tinfoil](http://tinfoil.io/Download#download "Tinfoil")来安装游戏。该软件支持XCI直接安装，很多时候较为方便。
-
+  Deepsea整合包不具有ES/FS/ACID补丁。因此你必须获取这些补丁才能安装游戏。Awoo虽然可以安装这些补丁，但联网安装补丁和上面的“保持断网”产生了矛盾————最好的办法是您自行google到相关的文件/找人要一份，或者也可以头铁一些——ban了就ban了，又不是不能玩。
+  
 ### 玩游戏
   建议你使用本地账户玩游戏，不要使用在线账户。一些长期联网的骨灰级破解玩家表示，使用本地账户玩nsp游戏可以有效降低被ban的概率。但一些新游戏会强制要求你使用在线账户游戏。
 
