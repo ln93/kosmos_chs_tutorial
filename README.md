@@ -130,9 +130,9 @@
 
 很遗憾，Kosmos已经停止开发了，不过你可以在Deepsea下载Hekate+Atmosphere整合包，获得类似Kosmos的体验。
 
-对于普通用户而言，你可以在[Deepsea](https://github.com/Team-Neptune/DeepSea "Deepsea")这个仓库上下载整合包。该网站提供的整合包不含ES/FS/ACID补丁，不支持盗版游戏。目前[Awoo](https://github.com/Huntereb/Awoo-Installer/releases "Awoo")提供了在线下载ES/FS/ACID补丁的功能，但这可能会导致ban机。请自行抉择。
+对于普通用户而言，你可以在[Deepsea](https://github.com/Team-Neptune/DeepSea "Deepsea")这个仓库上下载整合包。该网站提供的整合包不含ES/FS/ACID补丁，不支持盗版游戏。目前[这个仓库](https://github.com/ITotalJustice/patches/releases/ "patches")提供了ES/FS/ACID补丁的功能，可以在此下载hekate版本。但这可能会导致ban机。请自行抉择。
 
-当然，你也可以自行google it。使用ES/FS/ACID补丁可能会违反多条法律，因此大多数正规网站不会提供下载。
+使用ES/FS/ACID补丁可能会违反多条法律。
 
 ### TegraRCMGUI
 
@@ -143,7 +143,7 @@
 ## 让我们开始吧
 
 ### 准备TF卡文件
-  还记得刚刚你下载的Deepsea压缩包吧。你应该把里面的文件放入TF卡内(如果你还下载了awoo-installer，你应该将其解压后，把”switch“文件夹与tf卡内的同名文件夹合并。)
+  还记得刚刚你下载的Deepsea压缩包吧。你应该把里面的文件放入TF卡内(如果你还下载了hekate版本的patches，你可以将该其解压后，将得到的的两个文件夹与tf卡内的同名文件夹合并。)
 
   请使用Windows电脑打开这个压缩包，把压缩包目录下的所有文件拖入TF卡根目录（不要使用手机，安卓平板，或者MacOS电脑，这些操作系统对exFat文件系统的使用方法常常和ns不兼容，因而只能用于传输游戏，不能用于传输破解文件。）如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
@@ -228,7 +228,7 @@ Mac用户在用Mac破解后，第一次开机时，选择Tools-Unset archive bit
   即可。
 
 ### 安装游戏
-  Deepsea整合包不具有ES/FS/ACID补丁。因此你必须获取这些补丁才能安装游戏。Awoo虽然可以安装这些补丁，但联网安装补丁和上面的“保持断网”产生了矛盾————最好的办法是您自行google到相关的文件/找人要一份，或者也可以头铁一些——ban了就ban了，又不是不能玩。
+  待更新。
   
 ### 玩游戏
   建议你使用本地账户玩游戏，不要使用在线账户。一些长期联网的骨灰级破解玩家表示，使用本地账户玩nsp游戏可以有效降低被ban的概率。但一些新游戏会强制要求你使用在线账户游戏。
