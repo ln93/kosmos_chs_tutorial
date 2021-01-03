@@ -9,7 +9,7 @@
   
   Kosmos已经停止了开发，本文仅具有有限的参考价值。
   
-  修订日期：2020.12.1
+  修订日期：2021.1.3
 
 ## 更新说明
 	
@@ -143,12 +143,16 @@
 ## 让我们开始吧
 
 ### 准备TF卡文件
-  还记得刚刚你下载的Deepsea压缩包吧。你应该把里面的文件放入TF卡内(如果你还下载了hekate版本的patches，你可以将该其解压后，将得到的的两个文件夹与tf卡内的同名文件夹合并。)
+  还记得刚刚你下载的Deepsea压缩包吧。你应该把里面的文件放入TF卡内。
 
   请使用Windows电脑打开这个压缩包，把压缩包目录下的所有文件拖入TF卡根目录（不要使用手机，安卓平板，或者MacOS电脑，这些操作系统对exFat文件系统的使用方法常常和ns不兼容，因而只能用于传输游戏，不能用于传输破解文件。）如果你的操作是正确的，当你打开TF卡后，应当能直接看到hbmenu.nro这个文件。
 
   另外，在压缩包中的“payloads”目录下找到hekate_ctcaer_x.y.z.bin，将文件移动到你的电脑上备用。这个文件就是其他教程中可能提到的payload.bin。  
-
+  
+  **如果你还下载了hekate版本的patches，你可以将该其解压后，将得到的的两个文件夹与tf卡内的同名文件夹合并。**
+ 
+  **之后，修改/bootloader/hekate_ipl.ini，在前两次出现的fss0=atmosphere/fusee-secondary.bin下方各添加一行kip1patch=nosigchk**
+ 
   然后，将switch彻底关机（长按电源键8秒，switch将跳出关机菜单，选择power options-turn off），将TF卡插入你的switch。
 
   到此为止，你的switch已经准备就绪了。
